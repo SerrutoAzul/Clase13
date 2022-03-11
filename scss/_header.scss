@@ -1,0 +1,35 @@
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.textcenter
+{
+    text-align: center;
+}
+
+.around
+{
+    justify-content: center;
+}
+
+
+.bg-one
+{
+    background-image: linear-gradient( rgb(247, 216, 216),rgb(253, 165, 231) );
+
+}
+
+.logo
+{
+    float: left;
+}
+

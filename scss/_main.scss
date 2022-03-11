@@ -1,0 +1,72 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.column
+{
+    flex-direction: column;
+}
+
+.positionright
+{
+    float: right;
+}
+
+.titulo__principal
+{
+    color:red;
+    font-size: 100px;
+    font-weight:900;
+    text-align: center;
+    background-image: url(../assets/img/bg.jpg);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 100%
+
+    
+
+}
+
+.titulo__secundario
+{
+    color:firebrick;
+    font-size: 80px;
+    font-weight:900;
+    text-align: left;
+    background-image: url(../assets/img/bg.jpg);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 100%
+
+}
+
+
+.productlist
+{
+    /*display: inline;*/
+    color:black;
+    font-size: 45px;
+    font-weight: 300;
+
+}
+
+.product
+{
+    height: 200px;
+}
+
+    /*Estilo contacto*/
+
+.form
+{
+    padding: 0px 0px 200px 100px;
+    color:black;
+    font-size: 30px;
+    font-weight: 200;
+
+}
